@@ -156,9 +156,9 @@ CORS_ALLOWED_ORIGINS = [
     'https://walrus-app-z84i6.ondigitalocean.app'
 ]
 
- CSRF_TRUSTED_ORIGINS = [
+CSRF_TRUSTED_ORIGINS = [
      'https://walrus-app-z84i6.ondigitalocean.app'
- ]
+]
 
 
 CORS_EXPOSE_HEADERS = ['Content-Type', 'X-CSRFToken']
