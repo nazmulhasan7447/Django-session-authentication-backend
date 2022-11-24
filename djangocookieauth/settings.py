@@ -143,8 +143,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 CSRF_COOKIE_SAMESITE = 'Lax'
 SESSION_COOKIE_SAMESITE = 'Lax'
-# CSRF_COOKIE_HTTPONLY = False
-# SESSION_COOKIE_HTTPONLY = False
+CSRF_COOKIE_HTTPONLY = False
+SESSION_COOKIE_HTTPONLY = False
 
 # PROD ONLY
 CSRF_COOKIE_SECURE = True
@@ -156,9 +156,9 @@ CORS_ALLOWED_ORIGINS = [
     'https://walrus-app-z84i6.ondigitalocean.app'
 ]
 
-# CSRF_TRUSTED_ORIGINS = [
-#     'https://walrus-app-z84i6.ondigitalocean.app'
-# ]
+ CSRF_TRUSTED_ORIGINS = [
+     'https://walrus-app-z84i6.ondigitalocean.app'
+ ]
 
 
 CORS_EXPOSE_HEADERS = ['Content-Type', 'X-CSRFToken']
