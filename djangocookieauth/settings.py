@@ -157,7 +157,6 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:3000",
     'https://walrus-app-z84i6.ondigitalocean.app'
 ]
 
